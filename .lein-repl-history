@@ -1,0 +1,12 @@
+(+ 1 2)
+(+ (* 2 3) 4)
+(get "akrabadabra" 1)
+(get "akrabadabra" 0)
+(fn [who] (str "Hello, " who "!"))
+((fn [name] (str "Welcome to Rivendell mr " name)) "Jussi")
+(def hello (fn [who] (str "Hello, " who "!")))
+(hello "asd")
+(def answer 42)
+answer
+(use 'training-day)
+hai
